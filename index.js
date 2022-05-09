@@ -3016,6 +3016,7 @@ for(let i=1;i<10;i++){   //Todos
 }
 
 */
+//////////////////////////////////////////////////Continue, multiplos/////////////
 for(let i=0;i<20;i++){
   if(i % 5==0)continue;
   alert(i);
