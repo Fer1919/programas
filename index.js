@@ -3057,6 +3057,6 @@ alert(`Su total bruto es: ${total}. App Nando_Script`)
 */
 let dato, num, total;
 dato=+prompt('Ingrese su valor Neto')
-num=.19*dato;
-total=num+dato;
+num=.1225*dato;
+total=dato-num;
 alert(`Su total bruto es ${total}. APP NandoScipt`)
