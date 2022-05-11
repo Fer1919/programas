@@ -3015,9 +3015,35 @@ for(let i=1;i<10;i++){   //Todos
   alert(i);
 }
 
-*/
+
 //////////////////////////////////////////////////Continue, multiplos/////////////
 for(let i=0;i<20;i++){
   if(i % 5==0)continue;
   alert(i);
 }
+
+
+let i=0;
+while(i<5){
+  alert(i++)
+}
+
+let i=0;
+while(i<11){
+  alert(i++)
+}
+
+
+let i=0;
+while(i<11){
+  alert(i++)
+}
+*/
+
+let suma=0;
+while(true){
+  let acumulado=+prompt('Ingrese numero para acumular')
+  if(! acumulado)break;
+  suma+=acumulado;
+}
+alert(suma)
