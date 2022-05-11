@@ -2875,7 +2875,7 @@ dato=+prompt('Ingrese el valor Bruto')
 num=.19*dato;
 total=num+dato
 alert(`Su iva es ${total}. App Nando_Script`)
-
+///////////////////////////////////////////////////////////////
 let contador=1
 while (contador<5){
   let dato=+prompt('Igrese numero')
@@ -3038,8 +3038,8 @@ let i=0;
 while(i<11){
   alert(i++)
 }
-*/
 
+//acumulado
 let suma=0;
 while(true){
   let acumulado=+prompt('Ingrese numero para acumular')
@@ -3047,3 +3047,16 @@ while(true){
   suma+=acumulado;
 }
 alert(suma)
+
+
+let dato, num, total;
+dato=+prompt('Ingrese el valor Neto')
+num=.19*dato;
+total=num+dato
+alert(`Su total bruto es: ${total}. App Nando_Script`)
+*/
+let dato, num, total;
+dato=+prompt('Ingrese su valor Neto')
+num=.19*dato;
+total=num+dato;
+alert(`Su total bruto es ${total}. APP NandoScipt`)
